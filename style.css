@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.Albert-sans {
+    font-family: 'Albert Sans', sans-serif;
+}
+
+body {
+    font-family: 'Albert Sans', sans-serif;
+}
+
+/* Navbar */
+.navbar-nav .nav-link {
+    color: white;
+    transition: all 0.5s ease;
+}
+
+/* Responsive navbar */
+@media (max-width: 991px) {
+    .custom-navbar {
+        position: static;
+        background-color: #7DA9C8 !important;
+    }
+}
+
+/* Scrollspy */
+.nav-link.active {
+    background-color: #2E7798;
+    color: white !important;
+    border-radius: 0.5rem;
+    padding: 5px 15px;
+}
+
+.bg-azulGris {
+    background-color: #7da9c833;
+}
+
+.bg-azulclaro {
+    background-color: #D1DEE8;
+}
+
+.bg-footer {
+    background-color: #ADC7DA;
+}
+
+.bg-azul {
+    background-color: #7DA9C8;
+}
+
+.bg-azulFuerte {
+    background-color: #2E7798 !important;
+}
+
+.bg-gris {
+    background-color: #C7CFD6;
+}
+
+.bg-comentarios {
+    background-color: #A1BFD5;
+}
+
+.header {
+    font-family: 'Albert Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.bg-mensaje {
+    background-color: rgb(125, 169, 200, 0.2);
+    color: rgb(255, 255, 255);
+}
+
+.carousel-item img {
+    object-fit: cover;
+    min-height: 300px;
+    max-height: 600px;
+}
+
+.carousel-caption h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.carousel-caption h3 {
+    font-size: 1rem;
+}
+
+.rounded-custom {
+    border-top-left-radius: 80px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 80px;
+    border-bottom-left-radius: 0px;
+}
+
+.footer {
+    object-fit: none;
+    object-position: top;
+
+}
+
+/* Estilos para pantallas super-pequeñas (>=576px) */
+.carousel-caption h1 {
+    font-size: 1rem;
+}
+
+.carousel-caption h3 {
+    font-size: .8rem;
+}
+
+.sinopsis-text h4 {
+    font-size: 1.3rem;
+
+}
+
+.sinopsis-text h5 {
+    font-size: 1rem;
+}
+
+.sinopsis-img {
+    width: 100%;
+    max-width: 280px;
+    margin-bottom: 1rem;
+}
+
+
+/* Estilos para pantallas pequeñas (>=576px) */
+@media (min-width: 576px) {
+    .carousel-caption {
+        width: 300px;
+        padding: 1rem 1rem;
+    }
+
+    .carousel-caption h1 {
+        font-size: 1.2rem;
+    }
+
+    .carousel-caption h3 {
+        font-size: 1rem;
+    }
+
+    .sinopsis-img {
+        width: 100%;
+        max-width: 300px;
+        margin-bottom: 1rem;
+    }
+}
+
+/* Estilos para pantallas medianas (>=768px) */
+@media (min-width: 768px) {
+    .carousel-caption h1 {
+        font-size: 1.5rem;
+    }
+
+    .carousel-caption h3 {
+        font-size: 1.2rem;
+    }
+
+    .sinopsis-text h4 {
+        font-size: 1.5rem;
+    }
+
+    .sinopsis-text h5 {
+        padding-top: 1rem;
+        font-size: 1.2rem;
+    }
+
+    .sinopsis-img {
+        max-width: 300px;
+    }
+}
+
+/* Estilos para pantallas grandes (>=992px) */
+@media (min-width: 992px) {
+    .carousel-caption {
+        width: 380px;
+        padding: 2rem 3rem;
+    }
+
+    .carousel-caption h1 {
+        font-size: 2rem;
+    }
+
+    .carousel-caption h3 {
+        font-size: 1.2rem;
+    }
+
+    .sinopsis-text h1 {
+        font-size: 1.6rem;
+    }
+
+    .sinopsis-text p {
+        font-size: 1.4rem;
+    }
+
+    .sinopsis-img {
+        width: 100%;
+        max-width: 350px;
+    }
+}
